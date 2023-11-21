@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 62" line=" 57" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 44" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 114" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 91" line=" 74" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 148" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 75" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 137" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 79" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 115" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 97" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 12" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 60" line=" 86" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 96" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 150" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 85" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 60" line=" 86" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 88" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 65" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 88" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 12" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 150" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 165" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 51" line=" 166" >
+      <vfs_project>C:\Users\ibrahim\Desktop\Albero\albero.gpr</vfs_project>
+      <vfs_file>C:\Users\ibrahim\Desktop\Albero\src\procedures_functions.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

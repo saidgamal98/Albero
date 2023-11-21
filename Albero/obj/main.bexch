@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\ibrahim\Desktop\Albero\albero.gpr
+20231111161742 8e68b908de2e09802b9f57306710dc45
+[BOUND OBJECT FILES]
+C:\Users\ibrahim\Desktop\Albero\obj\types.o
+C:\Users\ibrahim\Desktop\Albero\obj\procedures_functions.o
+C:\Users\ibrahim\Desktop\Albero\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\ibrahim\Desktop\Albero\obj\
+-LC:\Users\ibrahim\Desktop\Albero\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-lm
+-Wl,--stack=0x2000000

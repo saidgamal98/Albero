@@ -1,0 +1,26 @@
+Il sistema deve effettuare i calcoli in base ai seguenti parametri: d (è una distanza data in miglia), teta (direzione di orientazione del pattern in gradi rispetto al nord), origin (collocazione del punto di origine del pattern in latitudine e longitudine, gradi),
+Il sistema deve calcolare i punti sulla base di un punto di partenza, una direzione rispetto al nord e una distanza.
+Il sistema deve calcolare il punto B a partire dal punto origin (A) lungo la direzione teta+90° e ad una distanza di d miglia.
+Il sistema deve calcolare il punto C a partire dal punto B lungo la direzione teta ad una distanza di d miglia.
+Il sistema deve calcolare il punto D a partire dal punto C lungo la direzione teta+90° ad una distanza di d miglia.
+Il sistema deve calcolare il punto E a partire dal punto D lungo la direzione teta-45° ad una distanza di d*sqrt(2) miglia.
+Il sistema deve calcolare il punto F a partire dal punto E lungo la direzione teta+90° ad una distanza di d miglia.
+Il sistema deve calcolare il punto G a partire dal punto F lungo la direzione teta-45° ad una distanza di (3/2)*d*sqrt(2) miglia.
+Il sistema deve calcolare il punto H a partire dal punto G lungo la direzione teta-135° ad una distanza di (3/2)*d*sqrt(2) miglia.
+Il sistema deve calcolare il punto I a partire dal punto H lungo la direzione teta+90° ad una distanza di d miglia.
+Il sistema deve calcolare il punto L a partire dal punto I lungo la direzione teta-135° ad una distanza di d*sqrt(2) miglia.
+Il sistema deve calcolare il punto M a partire dal punto L lungo la direzione teta+90° ad una distanza di d miglia.
+Il sistema deve calcolare il punto N a partire dal punto M lungo la direzione teta+180° ad una distanza di d miglia.
+Il sistema deve essere in grado di ottenere i parametri per il calcolo tramite input utente.
+Il sistema deve produrre le coordinate dei 12 punti calcolati in un file in formato KML (OGC 12-007r2 (opengeospatial.org)), in modo che l’output sia rappresentabile come una spezzata su google earth.
+Il sistema dovrà rappresentare la spezzata ad una altezza di 5000mt rispetto a MSL.
+Il sistema dovrà accettare coordinate per il punto origin da -90 a 90 per la latitudine e da -180 a 180 per la longitudine.
+Il sistema dovrà accettare valori per teta tra 0 e 360.
+Il sistema dovrà accettare un valore numerico per definire il tipo di datum terrestre: (1) terrapiatta, (2) sferico, (3) wgs84.
+
+
+Formula:	
+φ2 = asin( sin φ1 ⋅ cos δ + cos φ1 ⋅ sin δ ⋅ cos θ )
+λ2 = λ1 + atan2( sin θ ⋅ sin δ ⋅ cos φ1, cos δ − sin φ1 ⋅ sin φ2 )
+where	φ is latitude, λ is longitude, θ is the bearing (clockwise from north), 
+δ is the angular distance d/R; d being the distance travelled, R the earth’s radius

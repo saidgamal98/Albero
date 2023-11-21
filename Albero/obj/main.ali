@@ -1,0 +1,218 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		fecd2146 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W procedures_functions%s  procedures_functions.adb  procedures_functions.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W types%s		types.ads		types.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20210520051130 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20210520051130 e6ec3af5 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20231115143002 394f9e9d main%b
+D procedures_functions.ads  20231115143002 cefc8ce8 procedures_functions%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D types.ads		20231114114720 342fe0c2 types%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 10 11 none]
+G r s point [main standard 10 11 none] [pointIP types 12 9 none]
+G r c none [main standard 10 11 none] [getuserlongitudeinput procedures_functions 17 13 none]
+G r c none [main standard 10 11 none] [getuserlatitudeinput procedures_functions 16 13 none]
+G r c none [main standard 10 11 none] [getuserthetainput procedures_functions 18 13 none]
+G r c none [main standard 10 11 none] [deg2rad procedures_functions 8 13 none]
+G r c none [main standard 10 11 none] [getuserinput procedures_functions 14 13 none]
+G r c none [main standard 10 11 none] [calculatepoint procedures_functions 10 14 none]
+G r c none [main standard 10 11 none] [calculatepointhaversine procedures_functions 11 14 none]
+G r c none [main standard 10 11 none] [calculatepointvincenty procedures_functions 12 14 none]
+G r c none [main standard 10 11 none] [displaypoint procedures_functions 13 14 none]
+G r c none [main standard 10 11 none] [viewpoint procedures_functions 19 13 none]
+G r c none [main standard 10 11 none] [remove_spaces procedures_functions 20 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 25|1r6 1r23 2r6 2r29 3r6 3r31 4r6 4r24 5r6 5r45 7r6 7r33
+X 6 a-flteio.ads
+20K13*Float_Text_IO[20|46] 25|2w10 2r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[21|46] 25|3w10 3r35
+X 9 a-numeri.ads
+16K13*Numerics 35e17 25|4w10 4r28 5r10 5r49
+21N4*Pi 25|55r44 57r39 58r39 59r39 60r39 61r43 62r39 63r43 64r39 65r38 71r53
+. 73r48 74r48 75r48 76r48 77r52 78r48 79r52 80r48 81r47 86r52 88r47 89r47
+. 90r47 91r47 92r51 93r47 94r52 95r47 96r46
+X 10 a-nuelfu.ads
+18K22*Elementary_Functions[11|39] 25|5w19 5r58
+X 11 a-ngelfu.ads
+52V13*Sqrt{float} 25|58s60[10|18] 60s74[10|18] 61s78[10|18] 63s64[10|18]
+. 74s64[10|18] 76s78[10|18] 77s82[10|18] 79s68[10|18] 89s64[10|18] 91s78[10|18]
+. 92s82[10|18] 94s69[10|18]
+X 13 a-string.ads
+16K13*Strings 35e16 25|7r10 7r37
+X 16 a-strunb.ads
+83K21*Unbounded 765e26 25|7w18 7r45
+88R9*Unbounded_String<5|43R9> 744e15 25|19r15 28r23 30r17 31r15
+91r4*Null_Unbounded_String{88R9} 25|19r35 28r43 30r37 31r35
+93V13*Length{natural} 25|126s21
+104V13*To_Unbounded_String{88R9} 25|66s26 82s26 97s26 124s28
+117V13*To_String{string} 25|120s62 125s20 128s23
+X 19 a-textio.ads
+58K13*Text_IO 725e16 25|1w10 1r27
+65P9*File_Type 25|17r9 18r8
+67n23*In_File{67E9} 25|122r13
+67n32*Out_File{67E9} 25|120r15
+97U14*Create 25|120s4
+112U14*Open 25|122s4
+127U14*Close 25|148s4 149s4
+262U14*New_Line 25|44s4
+310V13*End_Of_File{boolean} 25|123s14
+490V13*Get_Line{string} 25|124s48
+496U14*Put_Line 25|125s7 133s13 134s13 135s13 136s13 137s13 138s13 139s13
+. 140s13 141s13 142s13 143s13 144s13
+506U14*Put_Line 25|47s7 48s7 49s7 100s13
+X 21 a-tiinio.ads
+59U14*Get 25|50s7[7|18]
+X 25 main.adb
+10U11*Main 10b11 150l5 150t9
+11r4 Origin{48|12R9} 35m4 36m4 55r28 71r37 86r36 107r17 133r50
+12f4 Teta{48|10F12} 39m4 40m4 40m20 40r20 55r36 56r31 57r31 58r31 59r31 60r31
+. 61r31 62r31 63r31 64r31 65r31 71r45 72r40 73r40 74r40 75r40 76r40 77r40
+. 78r40 79r40 80r40 81r40 86r44 87r39 88r39 89r39 90r39 91r39 92r39 93r39
+. 94r39 95r39 96r39
+13f4 dist{float} 43m4 55r53 56r37 57r48 58r48 59r48 60r62 61r66 62r48 63r52
+. 64r48 65r42 71r62 72r46 73r57 74r57 75r57 76r71 77r75 78r57 79r61 80r57
+. 81r51 86r62 87r45 88r57 89r57 90r57 91r71 92r75 93r57 94r62 95r57 96r51
+14r4 B{48|12R9} 55m64 56r28 71m68 72r37 86m68 87r36 108r17 134r50
+14r7 C{48|12R9} 56m48 57r28 72m52 73r37 87m51 88r36 109r17 135r50
+14r10 D{48|12R9} 57m59 58r28 73m63 74r37 88m63 89r36 110r17 136r50
+14r13 E{48|12R9} 58m71 59r28 74m75 75r37 89m75 90r36 111r17 137r50
+14r16 F{48|12R9} 59m59 60r28 75m63 76r37 90m63 91r36 112r17 138r50
+14r19 G{48|12R9} 60m85 61r28 76m89 77r37 91m89 92r36 113r17 139r50
+14r22 H{48|12R9} 61m89 62r28 77m93 78r37 92m93 93r36 114r17 140r50
+14r25 I{48|12R9} 62m59 63r28 78m63 79r37 93m63 94r36 115r17 141r50
+14r28 L{48|12R9} 63m75 64r28 79m79 80r37 94m80 95r36 116r17 142r50
+14r31 M{48|12R9} 64m59 65r28 80m63 81r37 95m63 96r36 117r17 143r50
+14r34 N{48|12R9} 65m53 81m57 96m57 118r17 144r50
+15i4 Num{integer} 46r11 50m12 52r12
+17p4 Ft{19|65P9} 120m11 120r11 125r16 133r22 134r22 135r22 136r22 137r22
+. 138r22 139r22 140r22 141r22 142r22 143r22 144r22 149m10 149r10
+18p4 Fg{19|65P9} 122m9 122r9 123r26 124r57 148m10 148r10
+19r4 File_Name{16|88R9} 66m13 82m13 97m13 120r72
+20a4 piatta_file{string} 66r46
+21a4 sferica_file{string} 82r46
+22a4 vinc_file{string} 97r46
+23a4 General_File{string} 122r59
+24i4 wanted_len{integer} 126m7 127r10
+25a4 wanted_str{string} 132r23
+26a4 str_bed{string} 130m13 132r13
+27a4 trial_bed{string} 128m10 130r27
+28r4 tmp_unbounded_str{16|88R9} 124m7 125r30 126r28 128r33
+29a4 tmp_char{string}
+30r4 spaced_str{16|88R9}
+31r4 all_info{16|88R9}
+129i14 I{integer} 130r21 130r37
+X 26 procedures_functions.ads
+7K9*Procedures_functions 25|6w6 6r32 26|22e25
+8V13*Deg2Rad{float} 25|40s12
+10U14*CalculatePoint 25|55s13 56s13 57s13 58s13 59s13 60s13 61s13 62s13 63s13
+. 64s13 65s13
+11U14*CalculatePointHaversine 25|71s13 72s13 73s13 74s13 75s13 76s13 77s13
+. 78s13 79s13 80s13 81s13
+12U14*CalculatePointVincenty 25|86s13 87s13 88s13 89s13 90s13 91s13 92s13
+. 93s13 94s13 95s13 96s13
+13U14*DisplayPoint 25|107s4 108s4 109s4 110s4 111s4 112s4 113s4 114s4 115s4
+. 116s4 117s4 118s4
+14V13*GetUserInput{float} 25|43s12
+16V13*GetUserLatitudeInput{48|8F9} 25|36s18
+17V13*GetUserLongitudeInput{48|7F9} 25|35s19
+18V13*GetUserThetaInput{48|10F12} 25|39s12
+19V13*ViewPoint{string} 25|133s40 134s40 135s40 136s40 137s40 138s40 139s40
+. 140s40 141s40 142s40 143s40 144s40
+20V13*remove_spaces{string} 25|133s26 134s26 135s26 136s26 137s26 138s26
+. 139s26 140s26 141s26 142s26 143s26 144s26
+X 27 system.ads
+67M9*Address
+X 34 s-memory.ads
+53V13*Alloc{27|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{27|67M9} 105i<c,__gnat_realloc>22
+X 41 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+X 48 types.ads
+6K9*types 25|8w6 8r17 48|18e10
+7F9*Longitudine<float>
+8F9*Latitudine<float>
+10F12*Theta{float} 25|12r11
+12R9*Point 25|11r13 14r38 48|16e14
+13f7*long{7F9} 25|35m11
+14f7*lat{8F9} 25|36m11
+
